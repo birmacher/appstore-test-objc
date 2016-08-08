@@ -23,6 +23,7 @@
 		616118271D58951B0037FD17 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616118261D58951B0037FD17 /* ExtensionDelegate.m */; };
 		6161182A1D58951B0037FD17 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616118291D58951B0037FD17 /* NotificationController.m */; };
 		6161182C1D58951B0037FD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6161182B1D58951B0037FD17 /* Assets.xcassets */; };
+		616118421D58D44C0037FD17 /* development_export.plist in Resources */ = {isa = PBXBuildFile; fileRef = 616118411D58D44C0037FD17 /* development_export.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		616118291D58951B0037FD17 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		6161182B1D58951B0037FD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6161182D1D58951B0037FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616118411D58D44C0037FD17 /* development_export.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = development_export.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		616117D61D58951A0037FD17 = {
 			isa = PBXGroup;
 			children = (
+				616118411D58D44C0037FD17 /* development_export.plist */,
 				616117E11D58951B0037FD17 /* Bitrise AppStore */,
 				616117FB1D58951B0037FD17 /* Bitrise AppStoreTests */,
 				616118061D58951B0037FD17 /* Bitrise AppStoreUITests */,
@@ -395,6 +398,7 @@
 			files = (
 				616117F21D58951B0037FD17 /* LaunchScreen.storyboard in Resources */,
 				616117EF1D58951B0037FD17 /* Assets.xcassets in Resources */,
+				616118421D58D44C0037FD17 /* development_export.plist in Resources */,
 				616117ED1D58951B0037FD17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -668,7 +672,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Bitrise AppStore/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.appstore.objc;
@@ -680,7 +684,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Bitrise AppStore/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.appstore.objc;
