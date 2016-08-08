@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616117E41D58951B0037FD17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 616117E31D58951B0037FD17 /* main.m */; };
+		616117E71D58951B0037FD17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616117E61D58951B0037FD17 /* AppDelegate.m */; };
+		616117EA1D58951B0037FD17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616117E91D58951B0037FD17 /* ViewController.m */; };
+		616117ED1D58951B0037FD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616117EB1D58951B0037FD17 /* Main.storyboard */; };
+		616117EF1D58951B0037FD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616117EE1D58951B0037FD17 /* Assets.xcassets */; };
+		616117F21D58951B0037FD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616117F01D58951B0037FD17 /* LaunchScreen.storyboard */; };
+		616117FD1D58951B0037FD17 /* Bitrise_AppStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 616117FC1D58951B0037FD17 /* Bitrise_AppStoreTests.m */; };
+		616118081D58951B0037FD17 /* Bitrise_AppStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 616118071D58951B0037FD17 /* Bitrise_AppStoreUITests.m */; };
+		6161180D1D58951B0037FD17 /* Bitrise AppStore WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6161180C1D58951B0037FD17 /* Bitrise AppStore WatchKit App.app */; };
+		616118131D58951B0037FD17 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616118111D58951B0037FD17 /* Interface.storyboard */; };
+		616118151D58951B0037FD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616118141D58951B0037FD17 /* Assets.xcassets */; };
+		6161181C1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6161181B1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		616118241D58951B0037FD17 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616118231D58951B0037FD17 /* InterfaceController.m */; };
+		616118271D58951B0037FD17 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616118261D58951B0037FD17 /* ExtensionDelegate.m */; };
+		6161182A1D58951B0037FD17 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616118291D58951B0037FD17 /* NotificationController.m */; };
+		6161182C1D58951B0037FD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6161182B1D58951B0037FD17 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		616117F91D58951B0037FD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616117D71D58951A0037FD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616117DE1D58951B0037FD17;
+			remoteInfo = "Bitrise AppStore";
+		};
+		616118041D58951B0037FD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616117D71D58951A0037FD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616117DE1D58951B0037FD17;
+			remoteInfo = "Bitrise AppStore";
+		};
+		6161180E1D58951B0037FD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616117D71D58951A0037FD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6161180B1D58951B0037FD17;
+			remoteInfo = "Bitrise AppStore WatchKit App";
+		};
+		6161181D1D58951B0037FD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616117D71D58951A0037FD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6161181A1D58951B0037FD17;
+			remoteInfo = "Bitrise AppStore WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		616118331D58951B0037FD17 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6161181C1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616118371D58951B0037FD17 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6161180D1D58951B0037FD17 /* Bitrise AppStore WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		616117DF1D58951B0037FD17 /* Bitrise AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise AppStore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616117E31D58951B0037FD17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		616117E51D58951B0037FD17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		616117E61D58951B0037FD17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		616117E81D58951B0037FD17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		616117E91D58951B0037FD17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		616117EC1D58951B0037FD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		616117EE1D58951B0037FD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		616117F11D58951B0037FD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		616117F31D58951B0037FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616117F81D58951B0037FD17 /* Bitrise AppStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise AppStoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616117FC1D58951B0037FD17 /* Bitrise_AppStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitrise_AppStoreTests.m; sourceTree = "<group>"; };
+		616117FE1D58951B0037FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616118031D58951B0037FD17 /* Bitrise AppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise AppStoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616118071D58951B0037FD17 /* Bitrise_AppStoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitrise_AppStoreUITests.m; sourceTree = "<group>"; };
+		616118091D58951B0037FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6161180C1D58951B0037FD17 /* Bitrise AppStore WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise AppStore WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616118121D58951B0037FD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		616118141D58951B0037FD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		616118161D58951B0037FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6161181B1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bitrise AppStore WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616118211D58951B0037FD17 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		616118221D58951B0037FD17 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		616118231D58951B0037FD17 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		616118251D58951B0037FD17 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		616118261D58951B0037FD17 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		616118281D58951B0037FD17 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		616118291D58951B0037FD17 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		6161182B1D58951B0037FD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6161182D1D58951B0037FD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616117DC1D58951B0037FD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616117F51D58951B0037FD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616118001D58951B0037FD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616118181D58951B0037FD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616117D61D58951A0037FD17 = {
+			isa = PBXGroup;
+			children = (
+				616117E11D58951B0037FD17 /* Bitrise AppStore */,
+				616117FB1D58951B0037FD17 /* Bitrise AppStoreTests */,
+				616118061D58951B0037FD17 /* Bitrise AppStoreUITests */,
+				616118101D58951B0037FD17 /* Bitrise AppStore WatchKit App */,
+				6161181F1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension */,
+				616117E01D58951B0037FD17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		616117E01D58951B0037FD17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616117DF1D58951B0037FD17 /* Bitrise AppStore.app */,
+				616117F81D58951B0037FD17 /* Bitrise AppStoreTests.xctest */,
+				616118031D58951B0037FD17 /* Bitrise AppStoreUITests.xctest */,
+				6161180C1D58951B0037FD17 /* Bitrise AppStore WatchKit App.app */,
+				6161181B1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616117E11D58951B0037FD17 /* Bitrise AppStore */ = {
+			isa = PBXGroup;
+			children = (
+				616117E51D58951B0037FD17 /* AppDelegate.h */,
+				616117E61D58951B0037FD17 /* AppDelegate.m */,
+				616117E81D58951B0037FD17 /* ViewController.h */,
+				616117E91D58951B0037FD17 /* ViewController.m */,
+				616117EB1D58951B0037FD17 /* Main.storyboard */,
+				616117EE1D58951B0037FD17 /* Assets.xcassets */,
+				616117F01D58951B0037FD17 /* LaunchScreen.storyboard */,
+				616117F31D58951B0037FD17 /* Info.plist */,
+				616117E21D58951B0037FD17 /* Supporting Files */,
+			);
+			path = "Bitrise AppStore";
+			sourceTree = "<group>";
+		};
+		616117E21D58951B0037FD17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				616117E31D58951B0037FD17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		616117FB1D58951B0037FD17 /* Bitrise AppStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				616117FC1D58951B0037FD17 /* Bitrise_AppStoreTests.m */,
+				616117FE1D58951B0037FD17 /* Info.plist */,
+			);
+			path = "Bitrise AppStoreTests";
+			sourceTree = "<group>";
+		};
+		616118061D58951B0037FD17 /* Bitrise AppStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				616118071D58951B0037FD17 /* Bitrise_AppStoreUITests.m */,
+				616118091D58951B0037FD17 /* Info.plist */,
+			);
+			path = "Bitrise AppStoreUITests";
+			sourceTree = "<group>";
+		};
+		616118101D58951B0037FD17 /* Bitrise AppStore WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				616118111D58951B0037FD17 /* Interface.storyboard */,
+				616118141D58951B0037FD17 /* Assets.xcassets */,
+				616118161D58951B0037FD17 /* Info.plist */,
+			);
+			path = "Bitrise AppStore WatchKit App";
+			sourceTree = "<group>";
+		};
+		6161181F1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				616118221D58951B0037FD17 /* InterfaceController.h */,
+				616118231D58951B0037FD17 /* InterfaceController.m */,
+				616118251D58951B0037FD17 /* ExtensionDelegate.h */,
+				616118261D58951B0037FD17 /* ExtensionDelegate.m */,
+				616118281D58951B0037FD17 /* NotificationController.h */,
+				616118291D58951B0037FD17 /* NotificationController.m */,
+				6161182B1D58951B0037FD17 /* Assets.xcassets */,
+				6161182D1D58951B0037FD17 /* Info.plist */,
+				616118201D58951B0037FD17 /* Supporting Files */,
+			);
+			path = "Bitrise AppStore WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		616118201D58951B0037FD17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				616118211D58951B0037FD17 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616117DE1D58951B0037FD17 /* Bitrise AppStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616118381D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStore" */;
+			buildPhases = (
+				616117DB1D58951B0037FD17 /* Sources */,
+				616117DC1D58951B0037FD17 /* Frameworks */,
+				616117DD1D58951B0037FD17 /* Resources */,
+				616118371D58951B0037FD17 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6161180F1D58951B0037FD17 /* PBXTargetDependency */,
+			);
+			name = "Bitrise AppStore";
+			productName = "Bitrise AppStore";
+			productReference = 616117DF1D58951B0037FD17 /* Bitrise AppStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		616117F71D58951B0037FD17 /* Bitrise AppStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6161183B1D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStoreTests" */;
+			buildPhases = (
+				616117F41D58951B0037FD17 /* Sources */,
+				616117F51D58951B0037FD17 /* Frameworks */,
+				616117F61D58951B0037FD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616117FA1D58951B0037FD17 /* PBXTargetDependency */,
+			);
+			name = "Bitrise AppStoreTests";
+			productName = "Bitrise AppStoreTests";
+			productReference = 616117F81D58951B0037FD17 /* Bitrise AppStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		616118021D58951B0037FD17 /* Bitrise AppStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6161183E1D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStoreUITests" */;
+			buildPhases = (
+				616117FF1D58951B0037FD17 /* Sources */,
+				616118001D58951B0037FD17 /* Frameworks */,
+				616118011D58951B0037FD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616118051D58951B0037FD17 /* PBXTargetDependency */,
+			);
+			name = "Bitrise AppStoreUITests";
+			productName = "Bitrise AppStoreUITests";
+			productReference = 616118031D58951B0037FD17 /* Bitrise AppStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6161180B1D58951B0037FD17 /* Bitrise AppStore WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616118341D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStore WatchKit App" */;
+			buildPhases = (
+				6161180A1D58951B0037FD17 /* Resources */,
+				616118331D58951B0037FD17 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6161181E1D58951B0037FD17 /* PBXTargetDependency */,
+			);
+			name = "Bitrise AppStore WatchKit App";
+			productName = "Bitrise AppStore WatchKit App";
+			productReference = 6161180C1D58951B0037FD17 /* Bitrise AppStore WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6161181A1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616118301D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStore WatchKit Extension" */;
+			buildPhases = (
+				616118171D58951B0037FD17 /* Sources */,
+				616118181D58951B0037FD17 /* Frameworks */,
+				616118191D58951B0037FD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitrise AppStore WatchKit Extension";
+			productName = "Bitrise AppStore WatchKit Extension";
+			productReference = 6161181B1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616117D71D58951A0037FD17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bitrise;
+				TargetAttributes = {
+					616117DE1D58951B0037FD17 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					616117F71D58951B0037FD17 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 616117DE1D58951B0037FD17;
+					};
+					616118021D58951B0037FD17 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 616117DE1D58951B0037FD17;
+					};
+					6161180B1D58951B0037FD17 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6161181A1D58951B0037FD17 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 616117DA1D58951A0037FD17 /* Build configuration list for PBXProject "Bitrise AppStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 616117D61D58951A0037FD17;
+			productRefGroup = 616117E01D58951B0037FD17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616117DE1D58951B0037FD17 /* Bitrise AppStore */,
+				616117F71D58951B0037FD17 /* Bitrise AppStoreTests */,
+				616118021D58951B0037FD17 /* Bitrise AppStoreUITests */,
+				6161180B1D58951B0037FD17 /* Bitrise AppStore WatchKit App */,
+				6161181A1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616117DD1D58951B0037FD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616117F21D58951B0037FD17 /* LaunchScreen.storyboard in Resources */,
+				616117EF1D58951B0037FD17 /* Assets.xcassets in Resources */,
+				616117ED1D58951B0037FD17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616117F61D58951B0037FD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616118011D58951B0037FD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6161180A1D58951B0037FD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616118151D58951B0037FD17 /* Assets.xcassets in Resources */,
+				616118131D58951B0037FD17 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616118191D58951B0037FD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6161182C1D58951B0037FD17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616117DB1D58951B0037FD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616117EA1D58951B0037FD17 /* ViewController.m in Sources */,
+				616117E71D58951B0037FD17 /* AppDelegate.m in Sources */,
+				616117E41D58951B0037FD17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616117F41D58951B0037FD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616117FD1D58951B0037FD17 /* Bitrise_AppStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616117FF1D58951B0037FD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616118081D58951B0037FD17 /* Bitrise_AppStoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616118171D58951B0037FD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616118271D58951B0037FD17 /* ExtensionDelegate.m in Sources */,
+				616118241D58951B0037FD17 /* InterfaceController.m in Sources */,
+				6161182A1D58951B0037FD17 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		616117FA1D58951B0037FD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616117DE1D58951B0037FD17 /* Bitrise AppStore */;
+			targetProxy = 616117F91D58951B0037FD17 /* PBXContainerItemProxy */;
+		};
+		616118051D58951B0037FD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616117DE1D58951B0037FD17 /* Bitrise AppStore */;
+			targetProxy = 616118041D58951B0037FD17 /* PBXContainerItemProxy */;
+		};
+		6161180F1D58951B0037FD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6161180B1D58951B0037FD17 /* Bitrise AppStore WatchKit App */;
+			targetProxy = 6161180E1D58951B0037FD17 /* PBXContainerItemProxy */;
+		};
+		6161181E1D58951B0037FD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6161181A1D58951B0037FD17 /* Bitrise AppStore WatchKit Extension */;
+			targetProxy = 6161181D1D58951B0037FD17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		616117EB1D58951B0037FD17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616117EC1D58951B0037FD17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		616117F01D58951B0037FD17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616117F11D58951B0037FD17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		616118111D58951B0037FD17 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616118121D58951B0037FD17 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6161182E1D58951B0037FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6161182F1D58951B0037FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		616118311D58951B0037FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bitrise AppStore WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStore.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		616118321D58951B0037FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bitrise AppStore WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStore.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		616118351D58951B0037FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Bitrise_AppStore_WatchKit_Extension;
+				INFOPLIST_FILE = "Bitrise AppStore WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStore.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		616118361D58951B0037FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Bitrise_AppStore_WatchKit_Extension;
+				INFOPLIST_FILE = "Bitrise AppStore WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStore.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		616118391D58951B0037FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bitrise AppStore/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6161183A1D58951B0037FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bitrise AppStore/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6161183C1D58951B0037FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bitrise AppStoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise AppStore.app/Bitrise AppStore";
+			};
+			name = Debug;
+		};
+		6161183D1D58951B0037FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bitrise AppStoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise AppStore.app/Bitrise AppStore";
+			};
+			name = Release;
+		};
+		6161183F1D58951B0037FD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bitrise AppStoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bitrise AppStore";
+			};
+			name = Debug;
+		};
+		616118401D58951B0037FD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bitrise AppStoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-AppStoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bitrise AppStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616117DA1D58951A0037FD17 /* Build configuration list for PBXProject "Bitrise AppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6161182E1D58951B0037FD17 /* Debug */,
+				6161182F1D58951B0037FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616118301D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStore WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616118311D58951B0037FD17 /* Debug */,
+				616118321D58951B0037FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		616118341D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStore WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616118351D58951B0037FD17 /* Debug */,
+				616118361D58951B0037FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		616118381D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616118391D58951B0037FD17 /* Debug */,
+				6161183A1D58951B0037FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6161183B1D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6161183C1D58951B0037FD17 /* Debug */,
+				6161183D1D58951B0037FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6161183E1D58951B0037FD17 /* Build configuration list for PBXNativeTarget "Bitrise AppStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6161183F1D58951B0037FD17 /* Debug */,
+				616118401D58951B0037FD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616117D71D58951A0037FD17 /* Project object */;
+}
